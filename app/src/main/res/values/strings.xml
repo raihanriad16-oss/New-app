@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">হিসাব ম্যানেজার</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">ড্যাশবোর্ড</string>
+    <string name="nav_transactions">লেনদেন</string>
+    <string name="nav_search">খুঁজুন</string>
+    <string name="nav_reports">রিপোর্ট</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="nav_categories">ক্যাটাগরি</string>
+
+    <!-- Dashboard -->
+    <string name="today_income">আজকের আয়</string>
+    <string name="today_expense">আজকের ব্যয়</string>
+    <string name="today_profit">আজকের লাভ</string>
+    <string name="month_income">এই মাসের আয়</string>
+    <string name="month_expense">এই মাসের ব্যয়</string>
+    <string name="month_profit">এই মাসের লাভ</string>
+    <string name="year_income">এই বছরের আয়</string>
+    <string name="year_expense">এই বছরের ব্যয়</string>
+    <string name="year_profit">এই বছরের লাভ</string>
+    <string name="total_transactions">মোট লেনদেন</string>
+    <string name="recent_transactions">সাম্প্রতিক লেনদেন</string>
+    <string name="quick_add">দ্রুত যোগ করুন</string>
+    <string name="loss">ক্ষতি</string>
+    <string name="profit">লাভ</string>
+    <string name="see_all">সব দেখুন</string>
+    <string name="no_transactions_yet">এখনো কোনো লেনদেন নেই</string>
+
+    <!-- Transaction -->
+    <string name="add_transaction">লেনদেন যোগ করুন</string>
+    <string name="edit_transaction">লেনদেন সম্পাদনা করুন</string>
+    <string name="transaction_type">লেনদেনের ধরন</string>
+    <string name="income">আয়</string>
+    <string name="expense">ব্যয়</string>
+    <string name="amount">পরিমাণ</string>
+    <string name="description">বিবরণ</string>
+    <string name="category">ক্যাটাগরি</string>
+    <string name="payment_method">পেমেন্ট পদ্ধতি</string>
+    <string name="cash">নগদ</string>
+    <string name="bank">ব্যাংক</string>
+    <string name="mobile_banking">মোবাইল ব্যাংকিং</string>
+    <string name="reference_number">রেফারেন্স নম্বর</string>
+    <string name="notes">মন্তব্য (ঐচ্ছিক)</string>
+    <string name="date">তারিখ</string>
+    <string name="time">সময়</string>
+    <string name="save">সংরক্ষণ করুন</string>
+    <string name="cancel">বাতিল</string>
+    <string name="delete">মুছে ফেলুন</string>
+    <string name="edit">সম্পাদনা</string>
+    <string name="delete_confirm_title">নিশ্চিত করুন</string>
+    <string name="delete_confirm_message">আপনি কি এই লেনদেনটি মুছে ফেলতে চান?</string>
+    <string name="undo">পূর্বাবস্থায় ফিরুন</string>
+    <string name="transaction_deleted">লেনদেন মুছে ফেলা হয়েছে</string>
+    <string name="transaction_saved">লেনদেন সংরক্ষিত হয়েছে</string>
+
+    <!-- Validation -->
+    <string name="error_amount_required">পরিমাণ লিখুন</string>
+    <string name="error_amount_invalid">সঠিক পরিমাণ লিখুন</string>
+    <string name="error_category_required">একটি ক্যাটাগরি নির্বাচন করুন</string>
+    <string name="error_date_invalid">সঠিক তারিখ নির্বাচন করুন</string>
+
+    <!-- Category -->
+    <string name="add_category">ক্যাটাগরি যোগ করুন</string>
+    <string name="edit_category">ক্যাটাগরি সম্পাদনা</string>
+    <string name="category_name">ক্যাটাগরির নাম</string>
+    <string name="income_categories">আয়ের ক্যাটাগরি</string>
+    <string name="expense_categories">ব্যয়ের ক্যাটাগরি</string>
+    <string name="category_delete_warning">এই ক্যাটাগরিতে লেনদেন থাকায় মুছে ফেলা যাবে না</string>
+
+    <!-- Search -->
+    <string name="search_hint">লেনদেন খুঁজুন…</string>
+    <string name="filter">ফিল্টার</string>
+    <string name="sort_by">সাজান</string>
+    <string name="sort_newest">নতুন থেকে পুরাতন</string>
+    <string name="sort_oldest">পুরাতন থেকে নতুন</string>
+    <string name="sort_amount_high">বেশি পরিমাণ আগে</string>
+    <string name="sort_amount_low">কম পরিমাণ আগে</string>
+    <string name="date_range">তারিখের পরিসীমা</string>
+    <string name="no_results">কোনো ফলাফল পাওয়া যায়নি</string>
+
+    <!-- Reports -->
+    <string name="report_daily">দৈনিক</string>
+    <string name="report_weekly">সাপ্তাহিক</string>
+    <string name="report_monthly">মাসিক</string>
+    <string name="report_yearly">বার্ষিক</string>
+    <string name="report_custom">নির্দিষ্ট সময়</string>
+    <string name="net_balance">নিট ব্যালেন্স</string>
+    <string name="average_transaction">গড় লেনদেন</string>
+    <string name="highest_income">সর্বোচ্চ আয়</string>
+    <string name="highest_expense">সর্বোচ্চ ব্যয়</string>
+    <string name="export_pdf">পিডিএফ এক্সপোর্ট</string>
+    <string name="export_excel">এক্সেল এক্সপোর্ট</string>
+    <string name="export_success">এক্সপোর্ট সফল হয়েছে</string>
+    <string name="export_failed">এক্সপোর্ট ব্যর্থ হয়েছে</string>
+
+    <!-- Settings -->
+    <string name="business_name">ব্যবসার নাম</string>
+    <string name="currency">মুদ্রা</string>
+    <string name="dark_mode">ডার্ক মোড</string>
+    <string name="backup">ব্যাকআপ</string>
+    <string name="restore">পুনরুদ্ধার</string>
+    <string name="backup_now">এখনই ব্যাকআপ নিন</string>
+    <string name="restore_backup">ব্যাকআপ পুনরুদ্ধার করুন</string>
+    <string name="backup_success">ব্যাকআপ সফল হয়েছে</string>
+    <string name="restore_success">পুনরুদ্ধার সফল হয়েছে</string>
+    <string name="about">অ্যাপ সম্পর্কে</string>
+    <string name="version">সংস্করণ</string>
+
+    <!-- Payment methods short -->
+    <string name="taka_symbol">৳</string>
+</resources>

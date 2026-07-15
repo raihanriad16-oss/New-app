@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="md_theme_primary">#1B6B4A</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_primaryContainer">#A8F2CA</color>
+    <color name="md_theme_secondary">#4E6355</color>
+    <color name="md_theme_background">#F7FBF6</color>
+    <color name="md_theme_surface">#F7FBF6</color>
+    <color name="income_green">#1B8A4A</color>
+    <color name="expense_red">#C62828</color>
+    <color name="profit_blue">#1565C0</color>
+</resources>
