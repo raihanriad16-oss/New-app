@@ -95,7 +95,7 @@ fun DashboardScreen(
             if (state.recent.isEmpty()) {
                 item { EmptyState(stringRes(R.string.no_transactions_yet)) }
             } else {
-                items(state.recent, key = { it.id }) { tx ->
+                items(state.recent, key = { it.id }) { tx: TransactionWithCategory ->
                     TransactionRow(tx)
                 }
             }
