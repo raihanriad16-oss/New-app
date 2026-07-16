@@ -95,7 +95,7 @@ fun CategoryScreen(
             }
 
             LazyColumn(contentPadding = PaddingValues(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                items(categories, key = { it.id }) { cat ->
+                items(categories, key = { it.id }) { cat: CategoryEntity ->
                     Card(shape = MaterialTheme.shapes.medium, elevation = CardDefaults.cardElevation(1.dp)) {
                         Row(
                             Modifier.fillMaxWidth().padding(12.dp),
