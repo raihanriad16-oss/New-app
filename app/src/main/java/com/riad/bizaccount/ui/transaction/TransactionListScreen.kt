@@ -36,6 +36,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.riad.bizaccount.data.local.dao.TransactionWithCategory
 import com.riad.bizaccount.ui.dashboard.EmptyState
 import com.riad.bizaccount.ui.dashboard.TransactionRow
 import kotlinx.coroutines.launch
@@ -83,7 +84,7 @@ fun TransactionListScreen(
                 contentPadding = PaddingValues(16.dp),
                 verticalArrangement = Arrangement.spacedBy(8.dp)
             ) {
-                items(dashState.recent, key = { it.id }) { tx ->
+                items(dashState.recent, key = { it.id }) { tx: TransactionWithCategory ->
                     val dismissState = rememberSwipeToDismissBoxState(
                         confirmValueChange = { value ->
                             if (value == SwipeToDismissBoxValue.EndToStart) {
