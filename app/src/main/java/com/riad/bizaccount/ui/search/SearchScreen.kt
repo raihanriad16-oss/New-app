@@ -35,6 +35,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
+import com.riad.bizaccount.data.local.dao.TransactionWithCategory
+import com.riad.bizaccount.data.local.entity.CategoryEntity
 import com.riad.bizaccount.data.local.entity.TransactionType
 import com.riad.bizaccount.data.repository.SortOption
 import com.riad.bizaccount.ui.dashboard.EmptyState
@@ -79,7 +81,7 @@ fun SearchScreen(
                         label = { Text("ব্যয়") }
                     )
                 }
-                items(categories, key = { it.id }) { cat ->
+                items(categories, key = { it.id }) { cat: CategoryEntity ->
                     FilterChip(
                         selected = filters.categoryId == cat.id,
                         onClick = { viewModel.onCategoryFilter(if (filters.categoryId == cat.id) null else cat.id) },
@@ -108,7 +110,7 @@ fun SearchScreen(
                     contentPadding = PaddingValues(16.dp),
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    items(results, key = { it.id }) { tx ->
+                    items(results, key = { it.id }) { tx: TransactionWithCategory ->
                         Box(
                             Modifier
                                 .fillMaxWidth()
